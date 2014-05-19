@@ -1,0 +1,30 @@
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.column{
+  max-width:160px;
+  position: relative;
+  float:left;
+  padding: 20px;
+  text-align: justify;
+  margin-left:5px;
+  margin-top: 5px;
+}
+  
+.theme1 {
+	background-color: #333;
+	color:white;
+}
+
+@media all and (max-width: 400px) {
+.column {
+	display:block;
+	clear:both;
+}
